@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: linen;
+		}
+
+		p{
+			color:maroon;
+		}
+
+		p{
+			font-weight: bold;
+			font-family: arial, sans-serif;
+		}
+
+		label{
+			font-weight: bold;
+			font-family: arial, sans-serif;
+		}
+
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form>
+		<label>Color:
+			<input type="color" autofocus/>
+			<em>(Hexaecimal code such as #ADD8E6)</em>
+		</label>
+
+		<p>
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date">	
+		(yyyy-mm-dd)
+		</p>
+
+		<p class= "extra" style= "color:maroon">
+		<label for="email">Email:</label>
+		<input type="email" name="email" placeholder="name@domain.com" required>
+		(name@domain.com)
+		</p>
+
+
+		<p>
+		<label for="quantity">Number:</label>
+		<input type="number" id="quantity" name="quantity" min="0" max="7" value="4">
+		(Enter a number between 0 and 7)
+		</p>
+
+
+		<p>
+		<label for="range">Range: 0</label>
+		<input type="range" min="0" max="20">
+		<label for="range">20</label>
+		</p>
+
+
+		<p>
+		<label for="gsearch">Search: </label>
+		<input type="search" name="search" placeholder="search query">	
+		</p>
+
+
+		<p>
+		<label for="appt" >Time: </label>
+		<input type="time">
+		(hh:mm)
+		</p>
+
+
+		<input type="submit" name="Submit">
+		<input type="reset" name="Clear">
+
+	</form>
+
+
+
+
+</body>
+</html>
