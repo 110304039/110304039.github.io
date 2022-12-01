@@ -1,0 +1,66 @@
+
+
+		img{
+			float: right;
+			width: 95%;
+			height: auto;
+		}
+
+		.floatright{float: right;}
+		.floatleft{float: left;}
+		.margin{margin: auto;
+				}
+
+		.width1{width: 50%;}
+		
+		body{
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		div{
+			margin: 1%;
+		}
+
+		.text1{
+			width: 95%;
+		}
+		.text2{
+			width: 40%;
+			
+		}
+		.text3{
+			width: 60%;
+			
+		}
+		.text4{
+			width: 80%;
+		}
+		.text5{
+			width: 95%;
+			
+		}
+		.imput2{
+			float: left;
+		}
+		.input3{
+			float: right;
+		}
+
+		textarea{
+			vertical-align: top;
+		}
+
+		@media screen{
+			body{
+				background-color: lightseagreen;
+			}
+		}
+
+		@media print{
+			body{
+				background-color: lightgray;
+			}
+		}
+
+
